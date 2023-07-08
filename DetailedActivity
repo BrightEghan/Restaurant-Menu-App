@@ -55,3 +55,17 @@ managmentCart.insertFood(object);
 });
 }
 }
+private void initView() {
+addToCartBtn = findViewById(R.id.addToCartBtn);
+timeTxt = findViewById(R.id.timeTxt);
+feeTxt = findViewById(R.id.priceTxt);
+titleTxt=findViewById(R.id.titleTxt);
+descriptionTxt = findViewById(R.id.descriptionTxt);
+numberOrderTxt = findViewById(R.id.numberItemTxt);
+plusBtn = findViewById(R.id.plusCardBtn);
+minusBtn = findViewById(R.id.MinusCartBtn);
+picFood = findViewById(R.id.foodPic);
+startTxt = findViewById(R.id.StarTxt);
+caloryTxt = findViewById(R.id.calTxt);
+}
+}

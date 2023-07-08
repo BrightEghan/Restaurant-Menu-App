@@ -44,3 +44,14 @@ numberOrder = numberOrder + 1;
 numberOrderTxt.setText("" + numberOrder);
 addToCartBtn.setText("Add to cart - GHS " + Math.round(numberOrder * object.getPrice()));
 });
+minusBtn.setOnClickListener(v -> {
+numberOrder = numberOrder - 1;
+numberOrderTxt.setText("" + numberOrder);
+addToCartBtn.setText("Add to cart - GHS " + Math.round(numberOrder * object.getPrice()));
+});
+addToCartBtn.setOnClickListener(v -> {
+object.setNumberinCart(numberOrder);
+managmentCart.insertFood(object);
+});
+}
+}

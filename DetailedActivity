@@ -1,0 +1,12 @@
+package com.example.menu.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import com.bumptech.glide.Glide;
+import com.example.app.menu.R;
+import com.example.menu.Domain.FoodDomain;
+import com.example.menu.Helper.ManagmentCart;
+public class DetailActivity extends AppCompatActivity {
+private Button
